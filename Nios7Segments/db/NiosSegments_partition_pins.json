@@ -1,0 +1,273 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "segm[30]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[29]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[28]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[27]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[26]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[25]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[24]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[22]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[21]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[20]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[19]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[18]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[17]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[16]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[14]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[13]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[12]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[11]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[10]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[9]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[8]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[6]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[5]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[4]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[3]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[2]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[1]",
+					"strict" : false
+				},
+				{
+					"name" : "segm[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "switch[31]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[15]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[7]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[30]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[14]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[6]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[29]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[13]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[5]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[28]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[12]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[4]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[27]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[11]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[3]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[26]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[10]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[2]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[25]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[9]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[1]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[24]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[8]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[0]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[23]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[22]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[21]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[20]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[19]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[18]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[17]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[16]",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

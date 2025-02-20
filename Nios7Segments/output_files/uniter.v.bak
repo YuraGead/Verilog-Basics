@@ -1,0 +1,14 @@
+
+module uniter(
+	input 		[7:0] in0,in1,in2,in3,
+	output 		[31:0] out
+);
+reg [31:0] outTemp;
+
+outTemp[7:0] = 	in0;
+outTemp[15:8] = 	in1;
+outTemp[23:16] = 	in2;
+outTemp[31:24] = 	in3;
+
+assign out = outTemp;
+endmodule 

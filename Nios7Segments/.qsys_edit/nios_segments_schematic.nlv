@@ -1,0 +1,21 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst nios_segments.cpu.clock_bridge -pg 1
+preplace inst nios_segments.sysid -pg 1 -lvl 2 -y 280
+preplace inst nios_segments.cpu.reset_bridge -pg 1
+preplace inst nios_segments.onchip_mem -pg 1 -lvl 2 -y 200
+preplace inst nios_segments.switch -pg 1 -lvl 2 -y 460
+preplace inst nios_segments.clk_0 -pg 1 -lvl 1 -y 500
+preplace inst nios_segments.cpu -pg 1 -lvl 2 -y 50
+preplace inst nios_segments -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst nios_segments.cpu.cpu -pg 1
+preplace inst nios_segments.segm -pg 1 -lvl 2 -y 360
+preplace netloc EXPORT<net_container>nios_segments</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)nios_segments.reset) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>nios_segments</net_container>(SLAVE)switch.reset,(SLAVE)cpu.reset,(SLAVE)sysid.reset,(SLAVE)onchip_mem.reset1,(MASTER)clk_0.clk_reset,(SLAVE)segm.reset) 1 1 1 280
+preplace netloc EXPORT<net_container>nios_segments</net_container>(SLAVE)nios_segments.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc EXPORT<net_container>nios_segments</net_container>(SLAVE)switch.external_connection,(SLAVE)nios_segments.switch) 1 0 2 NJ 490 NJ
+preplace netloc EXPORT<net_container>nios_segments</net_container>(SLAVE)nios_segments.segm,(SLAVE)segm.external_connection) 1 0 2 NJ 390 NJ
+preplace netloc FAN_OUT<net_container>nios_segments</net_container>(SLAVE)segm.clk,(SLAVE)cpu.clk,(SLAVE)onchip_mem.clk1,(SLAVE)switch.clk,(MASTER)clk_0.clk,(SLAVE)sysid.clk) 1 1 1 260
+preplace netloc INTERCONNECT<net_container>nios_segments</net_container>(SLAVE)switch.s1,(SLAVE)segm.s1,(SLAVE)cpu.debug_mem_slave,(SLAVE)sysid.control_slave,(SLAVE)onchip_mem.s1,(MASTER)cpu.data_master,(MASTER)cpu.instruction_master) 1 1 2 300 190 660
+levelinfo -pg 1 0 50 700
+levelinfo -hier nios_segments 60 90 420 680

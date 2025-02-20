@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+newApplicationWizardPage.defaultLocation=D\:\\intelFPGA\\18.1\\Projects\\NiosLoadNewProjectSegments\\software\\nios_segments
+newBspWizardPage.defaultLocation=D\:\\intelFPGA\\18.1\\Projects\\NiosLoadNewProjectSegments\\software\\nios_segments_bsp
+newBspWizardPage.sopcinfoFile=D\:\\intelFPGA\\18.1\\Projects\\NiosLoadNewProjectSegments\\nios_segments.sopcinfo
+newSoftwareExampleWizardPage.defaultLocation=D\:\\intelFPGA\\18.1\\Projects\\NiosLoadNewProjectSegments\\software\\HelloWorld
+newSoftwareExampleWizardPage.sopcinfoFile=D\:\\intelFPGA\\18.1\\Projects\\NiosLoadNewProjectSegments\\nios_segments.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=D\:\\intelFPGA\\18.1\\Projects\\NiosLoadNewProjectSegments\\software\\HelloWorld_bsp
