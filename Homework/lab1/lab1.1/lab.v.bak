@@ -1,0 +1,9 @@
+module lab
+(
+input [2:0] x,
+output [1:0] y
+);
+
+
+
+endmodule 

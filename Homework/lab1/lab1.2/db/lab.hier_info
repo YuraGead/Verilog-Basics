@@ -1,0 +1,18 @@
+|lab
+sw[0] => gr.IN0
+sw[0] => gr.IN0
+sw[0] => sw_red[0].DATAIN
+sw[1] => gr.IN0
+sw[1] => gr.IN1
+sw[1] => sw_red[1].DATAIN
+sw[2] => gr.IN1
+sw[2] => gr.IN1
+sw[2] => sw_red[2].DATAIN
+sw_red[0] <= sw[0].DB_MAX_OUTPUT_PORT_TYPE
+sw_red[1] <= sw[1].DB_MAX_OUTPUT_PORT_TYPE
+sw_red[2] <= sw[2].DB_MAX_OUTPUT_PORT_TYPE
+gr[0] <= gr.DB_MAX_OUTPUT_PORT_TYPE
+gr[1] <= gr.DB_MAX_OUTPUT_PORT_TYPE
+gr[2] <= gr.DB_MAX_OUTPUT_PORT_TYPE
+
+

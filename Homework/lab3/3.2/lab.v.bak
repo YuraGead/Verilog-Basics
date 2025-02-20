@@ -1,0 +1,18 @@
+module
+(
+input [7:0] sw,
+output [6:0] segm0, // для нулей
+output [6:0] segm1,  // для единиц
+output LEDG          // если 0 > 1 
+);
+
+wire sum;
+always @(*)
+begin
+	sum = sw[0]+sw[1]+sw[2]+sw[3]+sw[4]+sw[5]+sw[6]+sw[7];
+
+end
+1111
+
+
+endmodule 

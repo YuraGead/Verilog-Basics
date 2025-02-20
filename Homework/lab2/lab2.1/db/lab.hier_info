@@ -1,0 +1,31 @@
+|lab
+sw[0] => Equal0.IN0
+sw[0] => Equal1.IN2
+sw[0] => Equal2.IN1
+sw[0] => Equal3.IN2
+sw[0] => Equal4.IN1
+sw[0] => Equal5.IN2
+sw[0] => Equal6.IN2
+sw[1] => Equal0.IN2
+sw[1] => Equal1.IN0
+sw[1] => Equal2.IN0
+sw[1] => Equal3.IN1
+sw[1] => Equal4.IN2
+sw[1] => Equal5.IN1
+sw[1] => Equal6.IN1
+sw[2] => Equal0.IN1
+sw[2] => Equal1.IN1
+sw[2] => Equal2.IN2
+sw[2] => Equal3.IN0
+sw[2] => Equal4.IN0
+sw[2] => Equal5.IN0
+sw[2] => Equal6.IN0
+segm[0] <= segm.DB_MAX_OUTPUT_PORT_TYPE
+segm[1] <= segm.DB_MAX_OUTPUT_PORT_TYPE
+segm[2] <= segm.DB_MAX_OUTPUT_PORT_TYPE
+segm[3] <= segm.DB_MAX_OUTPUT_PORT_TYPE
+segm[4] <= segm.DB_MAX_OUTPUT_PORT_TYPE
+segm[5] <= segm.DB_MAX_OUTPUT_PORT_TYPE
+segm[6] <= segm.DB_MAX_OUTPUT_PORT_TYPE
+
+
